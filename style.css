@@ -1,3 +1,10 @@
+/*Modification*/
+
+.img-responsive {
+    margin: auto;
+    width: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -1040,3 +1047,22 @@ h4 {
         text-align: center;
     }
 }
+
+/*Modification responsive */
+
+@media screen and (min-width:0px) and (max-width:610px) {
+    .img-responsive {
+        width: auto;
+    }
+
+    .navbar-nav {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:611px) and (max-width:2000px){
+    .navbar-nav {
+        width: auto;
+    }
+}
+
